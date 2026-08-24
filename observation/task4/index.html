@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Todo List</title>
+<style>
+body{font-family:Arial;background:#eef2ff;display:flex;justify-content:center;padding:50px}
+.box{background:white;padding:30px;width:500px;border-radius:15px;box-shadow:0 5px 15px #aaa}
+h2{text-align:center;color:#4f46e5;font: size 28px;px}
+.row{display:flex;gap:10px}
+input{flex:1;padding:15px;font-size:18px;border:1px solid #ccc;border-radius:8px}
+button{background:#4f46e5;color:white;border:0;padding:15px 20px;font-size:16px;border-radius:8px;cursor:pointer}
+ul{padding:0;list-style:none}
+li{background:#f1f5f9;margin:10px 0;padding:15px;font-size:18px;border-radius:8px;
+display:flex;justify-content:space-between;align-items:center}
+.done{text-decoration:line-through;color:#888}
+.del{background:#ef4444;padding:8px 12px;font-size:14px}
+</style>
+</head>
+
+<body>
+<div class="box">
+<h2>📝 Todo List</h2>
+
+<div class="row">
+<input id="task" placeholder="Enter task">
+<button onclick="addTask()">Add</button>
+</div>
+
+<ul id="list"></ul>
+</div>
+
+<script>
+function addTask(){
+ let input=document.getElementById("task");
+ let value=input.value.trim();
+ if(!value)return;
+
+ let li=document.createElement("li");
+ li.innerHTML=`<span onclick="this.classList.toggle('done')">${value}</span>
+ <button class="del" onclick="this.parentElement.remove()">Delete</button>`;
+
+ document.getElementById("list").appendChild(li);
+ input.value="";
+}
+</script>
+</body>
+</html>
