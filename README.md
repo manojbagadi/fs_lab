@@ -1,6 +1,6 @@
 # Full Stack Web Development Laboratory (`fs_lab`)
 
-This repository contains the laboratory work, observations, records, and assignments for the **Full Stack Web Development Lab** at **Anil Neerukonda Institute of Technology & Sciences (ANITS)**.
+This repository contains the laboratory work, observations, records, practice experiments, and assignments for the **Full Stack Web Development Lab** at **Anil Neerukonda Institute of Technology & Sciences (ANITS)**.
 
 ---
 
@@ -59,6 +59,21 @@ fs_lab/
 │       ├── Record_Week4.pdf                     # Week 4 Record PDF
 │       └── Screenshot 2026-08-25 061830.png     # Dynamic Webpage Output
 │
+├── practice/
+│   ├── experiment1/
+│   │   └── index.html                           # Static Webpage Experiment
+│   │
+│   ├── experiment2/
+│   │   ├── index.html                           # Styled Webpage Experiment
+│   │   └── style.css                            # CSS Layout Experiment
+│   │
+│   ├── experiment3/
+│   │   ├── function.js                          # Array Methods Practice
+│   │   └── object.js                            # Library OOP Practice
+│   │
+│   └── experiment4/
+│       └── index.html                           # Dynamic DOM & Clock Experiment
+│
 └── assignments/
     └── .gitkeep
 ```
@@ -75,13 +90,13 @@ fs_lab/
 | **Task 3** | Student Profile Generator with ES6 Classes and Dynamic DOM creation | HTML5, CSS3, JavaScript (ES6) |
 | **Task 4** | Interactive Todo List with Add, Toggle Complete, and Delete functionality | HTML5, CSS3, JavaScript |
 
-### 📖 Lab Records
-| Week | Topic / Program | Key Concepts |
+### 📖 Lab Records & Practice
+| Week / Experiment | Topic / Program | Key Concepts |
 | :--- | :--- | :--- |
-| **Week 1** | Static Webpage & Registration | Tables, Forms, Text Formatting, Lists, Hyperlinks |
-| **Week 2** | Webpage Styling | Gradients, Flexbox, Navigation Bar, Hover Transitions |
-| **Week 3** | JavaScript Basics & OOP | Arrays, Functions, Calculations, ES6 Classes, Object Manipulation |
-| **Week 4** | Dynamic Web Application | Live Digital Clock (`setInterval`), DOM Events, Dynamic Theme Switching |
+| **Week 1 / Exp 1** | Static Webpage & Registration | Tables, Forms, Text Formatting, Lists, Hyperlinks |
+| **Week 2 / Exp 2** | Webpage Styling | Gradients, Flexbox, Navigation Bar, Hover Transitions |
+| **Week 3 / Exp 3** | JavaScript Basics & OOP | Arrays, Functions, Calculations, ES6 Classes, Object Manipulation |
+| **Week 4 / Exp 4** | Dynamic Web Application | Live Digital Clock (`setInterval`), DOM Events, Dynamic Theme Switching |
 
 ---
 
