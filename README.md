@@ -75,7 +75,14 @@ fs_lab/
 │       └── index.html                           # Dynamic DOM & Clock Experiment
 │
 └── assignments/
-    └── .gitkeep
+    └── inheritencetypes/
+        ├── single.js                            # Single Inheritance (Bird -> Parrot)
+        ├── multilevel.js                        # Multilevel Inheritance (Tree -> FruitTree -> MangoTree)
+        ├── hierarchical.js                      # Hierarchical Inheritance (Instrument -> Guitar, Piano)
+        ├── single_output.png                    # Terminal Execution Output Screenshot
+        ├── multilevel_output.png                # Terminal Execution Output Screenshot
+        ├── hierarchical_output.png              # Terminal Execution Output Screenshot
+        └── Inheritance_Types.pdf                # Lab Assignment PDF Documentation
 ```
 
 ---
@@ -98,12 +105,18 @@ fs_lab/
 | **Week 3 / Exp 3** | JavaScript Basics & OOP | Arrays, Functions, Calculations, ES6 Classes, Object Manipulation |
 | **Week 4 / Exp 4** | Dynamic Web Application | Live Digital Clock (`setInterval`), DOM Events, Dynamic Theme Switching |
 
+### 📝 Assignments
+| Assignment | Topic | Key Concepts |
+| :--- | :--- | :--- |
+| **Assignment 1** | `inheritencetypes` | Single, Multilevel, and Hierarchical Inheritance in JavaScript (ES6 `class`, `extends`, `new`) |
+
 ---
 
 ## 🛠️ Technologies Used
 
 - **Markup & Styling:** HTML5, CSS3 (Flexbox & Grid)
 - **Programming Language:** JavaScript (ES6+)
+- **Runtime Environment:** Node.js
 - **Graphics:** HTML5 Canvas API
 - **Version Control:** Git & GitHub
 
@@ -111,7 +124,8 @@ fs_lab/
 
 ## 👤 Author Information
 
-- **Student Name:** Manoj Bagadi
-- **Repository:** [manojbagadi/fs_lab](https://github.com/manojbagadi/fs_lab)
-- **Course:** Full Stack Web Development Laboratory
+- **Student Name:** B.Manoj
+- **Roll Number:** A24126552072
+- **Course:** Full Stack Web Development Laboratory (23CM4121)
 - **Institution:** Anil Neerukonda Institute of Technology & Sciences (ANITS)
+- **Repository:** [manojbagadi/fs_lab](https://github.com/manojbagadi/fs_lab)
