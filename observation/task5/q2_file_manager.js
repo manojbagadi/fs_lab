@@ -3,7 +3,7 @@ const readline = require('readline/promises');
 const { stdin: input, stdout: output } = require('process');
 
 async function main() {
-  const rl = readline.createInterface({ input, output });
+  const rl = readline.createInterface({ input, output }); 
 
   try {
     // 1. Get user input
