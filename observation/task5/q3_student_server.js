@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const PORT = 3000;
 
-// Sample list of 5 students
+// Sample list of 5 students  
 const students = [
   { id: 101, name: 'Alice', branch: 'CSE' },
   { id: 102, name: 'Bob', branch: 'ECE' },
