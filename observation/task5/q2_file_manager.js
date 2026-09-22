@@ -1,37 +1,24 @@
 const fs = require('fs');
-const readline = require('readline/promises');
-const { stdin: input, stdout: output } = require('process');
 
-async function main() {
-  const rl = readline.createInterface({ input, output }); 
+const filename = 'sample.txt';
 
-  try {
-    // 1. Get user input
-    const filename = await rl.question('Enter filename (e.g., test.txt): ');
-    const content = await rl.question('Enter initial content: ');
+// 1. Create and Write to file
+console.log('--- Step 1: Writing to File ---');
+fs.writeFileSync(filename, 'Hello, welcome to Node.js File System!\n');
+console.log(`File "${filename}" created successfully.`);
 
-    // 2. Write / Create file
-    fs.writeFileSync(filename, content);
-    console.log(`\n[SUCCESS] File "${filename}" created and written.`);
+// 2. Read the initial content
+console.log('\n--- Step 2: Reading File Content ---');
+const content = fs.readFileSync(filename, 'utf-8');
+console.log(content);
 
-    // 3. Read file
-    console.log('--- Current File Content ---');
-    console.log(fs.readFileSync(filename, 'utf-8'));
+// 3. Append extra content to the file
+console.log('--- Step 3: Appending Data to File ---');
+fs.appendFileSync(filename, 'This is additional text appended to the file.\n');
+console.log('Content appended successfully.');
 
-    // 4. Append additional content
-    const extraContent = await rl.question('\nEnter extra content to append: ');
-    fs.appendFileSync(filename, '\n' + extraContent);
-    console.log('[SUCCESS] Content appended.');
+// 4. Read and display the updated final file
+console.log('\n--- Step 4: Final File Content ---');
+const finalContent = fs.readFileSync(filename, 'utf-8');
+console.log(finalContent);
 
-    // 5. Read and display final contents
-    console.log('\n--- Final File Content ---');
-    console.log(fs.readFileSync(filename, 'utf-8'));
-
-  } catch (err) {
-    console.error('Error:', err.message);
-  } finally {
-    rl.close();
-  }
-}
-
-main();
