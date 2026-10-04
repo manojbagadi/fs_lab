@@ -96,15 +96,23 @@ fs_lab/
 │   └── experiment4/ (index.html)
 │
 └── assignments/
-    └── inheritencetypes/
-        ├── single.js                            # Single Inheritance (Bird -> Parrot)
-        ├── multilevel.js                        # Multilevel Inheritance (Tree -> FruitTree -> MangoTree)
-        ├── hierarchical.js                      # Hierarchical Inheritance (Instrument -> Guitar, Piano)
-        ├── single_output.png                    # Terminal execution output screenshot
-        ├── multilevel_output.png                # Terminal execution output screenshot
-        ├── hierarchical_output.png              # Terminal execution output screenshot
-        ├── failed_test_output.png               # Negative test case error screenshot
-        └── Inheritance_Types.pdf                # Lab Assignment PDF Documentation
+    ├── inheritencetypes/
+    │   ├── single.js                            # Single Inheritance (Bird -> Parrot)
+    │   ├── multilevel.js                        # Multilevel Inheritance (Tree -> FruitTree -> MangoTree)
+    │   ├── hierarchical.js                      # Hierarchical Inheritance (Instrument -> Guitar, Piano)
+    │   ├── single_output.png                    # Terminal execution output screenshot
+    │   ├── multilevel_output.png                # Terminal execution output screenshot
+    │   ├── hierarchical_output.png              # Terminal execution output screenshot
+    │   ├── failed_test_output.png               # Negative test case error screenshot
+    │   └── Inheritance_Types.pdf                # Lab Assignment PDF Documentation
+    │
+    └── assignment2/                             # MongoDB Student Information Management System
+        ├── student_management.js                # Complete CRUD, Indexing, and Query Extensions (Node.js)
+        ├── queries.js                           # Standard MongoDB Shell Script (use collegeDB, db.students...)
+        ├── student_management_output_1.png      # Terminal output: Insert, Display, Updates
+        ├── student_management_output_2.png      # Terminal output: Delete, Sort, Indexing, Extensions
+        ├── failed_test_output.png               # Negative validation output: Duplicate Key & Not Found
+        └── Assignment2_MongoDB.pdf              # Standardized Lab Assignment Report (Times New Roman)
 ```
 
 ---
@@ -133,6 +141,7 @@ fs_lab/
 | Assignment | Topic | Key Concepts |
 | :--- | :--- | :--- |
 | **Assignment 1** | `inheritencetypes` | Single, Multilevel, and Hierarchical Inheritance in JavaScript (ES6 `class`, `extends`, `new`) |
+| **Assignment 2** | `assignment2` (MongoDB) | Database `collegeDB`, Collection `students`, CRUD, Indexing (COLLSCAN vs IXSCAN), Analytics |
 
 ---
 
