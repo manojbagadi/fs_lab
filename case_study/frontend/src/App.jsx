@@ -384,7 +384,7 @@ export default function App() {
                     name="rollNumber"
                     required
                     disabled={!!editingId}
-                    placeholder="e.g. A24126552072"
+                    placeholder="e.g. 23CM401"
                     value={form.rollNumber}
                     onChange={handleInputChange}
                   />
@@ -395,7 +395,7 @@ export default function App() {
                     type="text"
                     name="name"
                     required
-                    placeholder="e.g. B. Manoj"
+                    placeholder="e.g. Aditya Sharma"
                     value={form.name}
                     onChange={handleInputChange}
                   />
@@ -433,7 +433,7 @@ export default function App() {
                     type="email"
                     name="email"
                     required
-                    placeholder="e.g. manoj@example.com"
+                    placeholder="e.g. aditya@example.com"
                     value={form.email}
                     onChange={handleInputChange}
                   />
@@ -502,3 +502,4 @@ export default function App() {
     </div>
   );
 }
+

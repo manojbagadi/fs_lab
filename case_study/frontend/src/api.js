@@ -102,3 +102,4 @@ export async function getDepartmentSummary() {
   });
   return await handleResponse(response);
 }
+
