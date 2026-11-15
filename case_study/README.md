@@ -22,7 +22,6 @@
 ```text
 case_study/
 ├── casestudy.pdf                # Institutional Case Study Report (PDF Format)
-├── casestudy.md                 # Complete Case Study Documentation (Markdown)
 ├── README.md                    # Case study overview and quick start guide
 ├── backend/                     # Express.js REST API + Mongoose ODM (Render)
 │   ├── models/Student.js        # Mongoose Schema & validation
@@ -87,4 +86,4 @@ Open `http://localhost:5173` in your browser.
 
 The full institutional documentation is available as:
 * 📄 **[casestudy.pdf](./casestudy.pdf)**
-* 📝 **[casestudy.md](./casestudy.md)**
+
