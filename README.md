@@ -12,6 +12,14 @@ fs_lab/
 ├── README.md
 ├── .gitignore
 │
+├── case_study/                                  # Unit V Case Study (Cloud Deployment Failure Analysis)
+│   ├── casestudy.pdf                            # Complete Academic Documentation (ANITS Format)
+│   ├── casestudy.md                             # Full Case Study Report & 4-Pillar Solutions
+│   ├── README.md                                # Overview, Architecture & Quickstart Guide
+│   ├── backend/                                 # Express.js REST API + Mongoose ODM (Render)
+│   ├── frontend/                                # React 18 + Vite Client Application (Vercel)
+│   └── screenshots/                             # High-Resolution Execution Evidence
+│
 ├── observation/
 │   ├── task1/                                   # HTML5 College Portal, Tables, Forms, Multimedia
 │   │   ├── index.html
