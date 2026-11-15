@@ -59,3 +59,4 @@ const studentSchema = new mongoose.Schema(
 studentSchema.index({ department: 1 });
 
 module.exports = mongoose.model("Student", studentSchema);
+
